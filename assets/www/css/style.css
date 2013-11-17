@@ -1,0 +1,59 @@
+﻿#view-port{
+height: 100%;
+}
+
+li.suggetion_list{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	
+}
+
+div.suggetions_wrap{
+	position: relative;
+}
+
+
+div.suggetions_scroll{
+	position: absolute;
+	height: auto;
+	width: 100%;
+	top: 1px;
+	bottom: 0;
+}
+
+.button{
+	width: 50px;
+	font-size: 20px;
+}
+
+.more_options_btn{
+	width: 80%;
+}
+
+.overlayContents{
+  padding: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 15px;
+  height: 150px;
+  text-align: center;
+}
+
+
+
+.box2 {
+	position: absolute;
+	/*
+	height: 100%;
+	width: 100%;
+	*/
+	background-color: #FFF;
+	border-right: 1px solid black;
+	-webkit-transition:all .5s ease;
+	transition:all 1s ease;
+	-webkit-transform: translate3d(-100%, 0, 0);
+	-moz-transform: translate3d(-500px, 0, 0);
+}
+.box2.go {
+  -webkit-transform: translate3d(0, 0, 0);
+}
